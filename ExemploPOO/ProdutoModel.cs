@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExemploPOO
 {
-    public class ProdutoModel
+    public class ProdutoModel : ICrud
     {
         private List<Produto> produtos = new List<Produto>();
 

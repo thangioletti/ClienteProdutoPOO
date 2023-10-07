@@ -8,7 +8,7 @@ namespace ExemploPOO
 {
     public class Menu
     {
-        public static ProdutoModel ProdutoModel = new ProdutoModel();
+        public static ICrud ProdutoModel = new ProdutoModel();
         public static ClienteModel ClienteModel = new ClienteModel();
         private static string MenuPrincipal()
         {

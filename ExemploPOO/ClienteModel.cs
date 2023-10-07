@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExemploPOO
 {
-    public class ClienteModel
+    public class ClienteModel : ICrud
     {
         private List<Cliente> clientes = new List<Cliente>();
 
