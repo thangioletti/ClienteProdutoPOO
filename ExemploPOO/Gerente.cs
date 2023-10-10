@@ -10,7 +10,7 @@ namespace ExemploPOO
     {
         public override double CalcularSalarioLiquido()
         {
-            return this.Salario*0.7;
+            return this.Salario * 0.5;
         }
     }
 }
