@@ -13,7 +13,7 @@ namespace ExemploPOO
 
         public virtual double CalcularSalarioLiquido()
         {
-            return Salario*0.7;
+            return this.Salario * 0.8;
         }
     }
 }
